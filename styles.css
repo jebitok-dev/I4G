@@ -1,0 +1,36 @@
+body {
+    background-color: wheat;
+    font-size: 130%;
+    position: absolute;
+}
+
+header li {
+    list-style: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+a:hover, a:active {
+    background-color: rgb(10, 10, 44);
+    color: purple;
+}
+header li:nth-child(1) {
+    font-size: 24px;
+}
+div > p {
+    margin: 0 100px 0 100px; 
+    font-size: 1.5em;
+    line-height: normal;
+    font-size: 24px;
+}
+div > h2 {
+    text-align: start;
+    font-size: 36px;
+}
