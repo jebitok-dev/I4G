@@ -3,13 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML is structure only!</title>
+    <title>Learning!</title>
+    <style>
+        header li {
+            list-style: none;
+        }
+        a:link, a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        a:hover, :active {
+            background-color: rgb(10, 10, 44);
+            color: purple;
+        }
+        div > p {
+            margin: 0 40px 0 40px; 
+            font-size: 1.5em;
+            line-height: normal;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color: green; font-size: 60px; text-align: center;">HTML is structure only!</h1>
-    <p style="margin: 0 100px 0 100px; font-size: 1.5em;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quisquam illo pariatur ad molestiae nesciunt voluptas quis facilis odio? Consectetur et reprehenderit nulla beatae ipsum 
-        quidem asperiores exercitationem laudantium ducimus.</p>    
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore laboriosam sint voluptatem corporis quibusdam obcaecati officiis perferendis, possimus dolorem voluptas reiciendis</p>
+    <header>
+        <ul>
+            <li><a href="https://github.com/jebitok-dev" target="_blank">Home</a></li>
+            <li><a href="https://twitter.com/Jsebitok" target="_blank">About</a></li>
+            <li><a href="https://twitter.com/Jsebitok">Contact</a></li>
+        </ul>
+    </header>
+    <h1 style="color: green; font-size: 60px; text-align: center;">Hi, I'm Sharon Jebitok</h1>
+    <div>
+    <p>I'm a web developer learning to write meaningful code using Javascript, React, Nodejs, CSS, Bootstrap among others.</p>   
+    <p>I started writing code in 2020 and its been a wonderful experience. I was part of LakeHub Academy's loop 3.0 for full stack web development (MERN Stack).</p>
+    <p>I've gotten experience through HNG Internship hngi7 as front-end developer whose role was implementing web designs using bootstrap and css</p>
+    <p>I'm part of various tech communities like Tech Twitter, She Code Africa and others. Dev communities have proven to help supportive and educative as well as door to more openings and connections.</p>
+    </div>
     <footer>
         <hr>
         <p style="text-align: center;" onclick="alert('EMAILING US IS USELESS')">Tech Support: yeah.right@server-is-down.com</p>
